@@ -4,7 +4,12 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyDdVpKXcoLvPgcXAgMudVxkRbmeSohnBoY",
+  authDomain: "tnt-school.firebaseapp.com",
+  projectId: "tnt-school",
+  storageBucket: "tnt-school.appspot.com",
+  messagingSenderId: "535008402089",
+  appId: "1:535008402089:web:a761cb43e28ad027a127b8"
 };
 
 if (!firebase.apps.length) {
